@@ -10,6 +10,10 @@ function compute()
         alert("Please enter Principle")
         p.focus();
         return false;
+     if (p=="0"){
+        alert("Please enter a positive number")
+        p.focus();
+        return false;
 
     }
 
