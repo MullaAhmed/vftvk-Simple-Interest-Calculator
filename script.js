@@ -17,7 +17,7 @@ function compute()
         return false;
     }
 
-    document.getElementById("result").innerHTML="If you deposit "+p+",\<br\>at an interest rate of "+r+"%\<br\>You will receive an amount of "+a+",\<br\>in the year "+year+"\<br\>"
+    document.getElementById("result").innerHTML="If you deposit <mark>"+p+"</mark>,\<br\>at an interest rate of <mark>"+r+"</mark>%\<br\>You will receive an amount of <mark>"+a+"</mark>,\<br\>in the year <mark>"+year+"<mark/>\<br\>"
 
 
 }
