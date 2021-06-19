@@ -10,11 +10,11 @@ function compute()
         alert("Please enter Principle")
         p.focus();
         return false;
-     if (p=="0"){
-        alert("Please enter a positive number")
+    }
+    if (p<=0){
+        alert("Please enter a positive number ")
         p.focus();
         return false;
-
     }
 
     document.getElementById("result").innerHTML="If you deposit "+p+",\<br\>at an interest rate of "+r+"%\<br\>You will receive an amount of "+a+",\<br\>in the year "+year+"\<br\>"
