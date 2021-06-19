@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Simple intrest calculator</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <div class="maindiv">
+        <h1><center>Simple Interest Calculator</center></h1>
+
+        Amount       <input type="number"  id="principal">  <br/>
+        Rate         <input type="range"  id="rate" min=0 max=20 onchange="show_value(this.value)";> 
+        <span id="rate_val">
+          
+        </span>
+        <br>
+        No. of Years <select id="years"> 
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+             </select><br><br >
+     
+
+        <button onclick="compute()">Compute</button>
+        <br>
+        <span id="result">
+
+        </span>
+    
+    <footer>
+        &#169; This Calculator belongs to Ahmed Mulla
+    </footer>
+     </div>
+    </body>
+</html>
